@@ -6,10 +6,10 @@ btnDecremEl.addEventListener("click", onDecrementBtnClick);
 btnIncremEl.addEventListener("click", onIncrementBtnClick);
 
 function onDecrementBtnClick() {
-  counterValue += 1;
+  counterValue -= 1;
   return (valueEl.textContent = counterValue);
 }
 function onIncrementBtnClick() {
-  counterValue -= 1;
+  counterValue += 1;
   return (valueEl.textContent = counterValue);
 }
